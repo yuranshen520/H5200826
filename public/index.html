@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= webpackConfig.name %></title>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://at.alicdn.com/t/c/font_3755993_ii4je8lkqoe.css">
+    <style>
+      body {
+        background: #f2f2f2;
+      }
+  @media screen and (min-width: 576px) {
+    html,
+    body {
+      font-size: 8px;
+    }
+    .lan_content em {
+      display: none;
+    }
+    .w3 .container .server {
+      height: 70px;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    html,
+    body {
+      font-size: 10.2px;
+    }
+    .lan_content em {
+      display: inline;
+    }
+    .w3 .container .server {
+      height: 7.5em;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    html,
+    body {
+      font-size: 13.2px;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    html,
+    body {
+      font-size: 16px;
+    }
+  }  
+  @media screen and (max-width: 576px) {
+    html,
+    body {
+      font-size: 5px;
+    }
+    .w3 .container .server {
+      height: 58px;
+    }
+  }
+    </style>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= webpackConfig.name %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
